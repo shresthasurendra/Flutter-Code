@@ -16,8 +16,25 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Image.asset('assets/Earth.jpg'),
+      body:
+      Container(
+        padding:  EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        margin: EdgeInsets.fromLTRB(160.0, 100.0, 50.0, 100.0),
+        color: Colors.grey[400],
+         child: Text('Hello'),
+         // child:
+        //
+        // IconButton(
+         //   onPressed: () {},
+         //   icon: Icon(Icons.alternate_email),
+         //   color: Colors.amber,
+         // )
+
+        //   Icons.airport_shuttle,
+        //   color: Colors.lightBlue,
+        //   size: 50.0,
+        // )
+        // Image.asset('assets/Earth.jpg'),
 
         // Text(
         //   'Hello Users!',
