@@ -17,11 +17,64 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body:
-      Container(
-        padding:  EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
-        margin: EdgeInsets.fromLTRB(160.0, 100.0, 50.0, 100.0),
-        color: Colors.grey[400],
-         child: Text('Hello'),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children:<Widget> [
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  color: Colors.cyan,
+                  child: Text('One'),
+                ),
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  color: Colors.pink,
+                  child: Text('Two'),
+                ),
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  color: Colors.amber,
+                  child: Text('Three'),
+                ),
+              ],
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.cyan,
+              child: Text('One'),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.pink,
+              child: Text('Two'),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.amber,
+              child: Text('Three'),
+            )
+          ],
+      // Row(
+      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   crossAxisAlignment: CrossAxisAlignment.start,
+      //   children: <Widget>[
+      //     Text('Hello World'),
+      //     TextButton(onPressed: () {} , child: IconButton( onPressed: () {}, icon: Icon(Icons.mail),)),
+      //     Container(
+      //       color: Colors.cyan,
+      //       padding: EdgeInsets.all(30.0),
+      //       child: Text('Inside Container'),
+      //     )
+      //   ],
+      // Container(
+      //   padding:  EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+      //   margin: EdgeInsets.fromLTRB(160.0, 100.0, 50.0, 100.0),
+      //   color: Colors.grey[400],
+      //    child: Text('Hello'),
          // child:
         //
         // IconButton(
